@@ -10,7 +10,6 @@ import Services from '@/components/sections/services';
 import Team from '@/components/sections/team';
 import Areas from '@/components/sections/areas';
 import Testimonials from '@/components/sections/testimonials';
-import Faq from '@/components/sections/faq';
 import Interdependence from '@/components/sections/interdependence';
 import Contact from '@/components/sections/contact';
 import MissionVision from '@/components/sections/mission-vision';
@@ -32,7 +31,6 @@ export default function HomePage() {
         <Areas />
         <Services />
         <Testimonials />
-        <Faq />
         <Interdependence />
         <Contact />
       </main>
