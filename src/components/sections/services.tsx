@@ -43,7 +43,7 @@ export default function Services() {
         <div className="flex flex-col items-center text-center gap-4 mb-12">
           <h2 className="font-headline text-3xl md:text-4xl font-bold tracking-tight">Nuestros Servicios</h2>
           <p className="text-lg text-muted-foreground max-w-3xl">
-            Bienvenido a los servicios de Nutrimet Clinic, un conjunto de atenciones especializadas diseñadas para prevenir, diagnosticar y tratar alteraciones metabólicas y nutricionales. Cada servicio integra ciencia, tecnología y un enfoque humanizado.
+            Bienvenido a los servicios de Nutrimet Clinic, un conjunto de atenciones especializadas diseñadas para prevenir, diagnosticar y tratar alteraciones metabólicas y nutricionales. Cada servicio integra ciencia, tecnología y un enfoque humanizado, garantizando intervenciones seguras, personalizadas y orientadas a mejorar la salud y calidad de vida de nuestros pacientes y sus familias.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -60,6 +60,12 @@ export default function Services() {
               </CardDescription>
             </Card>
           ))}
+        </div>
+        <div className="mt-16 text-center">
+            <h3 className="font-headline text-2xl md:text-3xl font-bold tracking-tight">Dotación</h3>
+            <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
+              Nutrimet dispone de recursos tecnológicos avanzados y de un equipo profesional altamente capacitado, lo que garantiza evaluaciones metabólicas confiables y una atención integral, segura y eficiente para todos nuestros pacientes.
+            </p>
         </div>
       </div>
     </section>

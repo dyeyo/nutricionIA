@@ -10,11 +10,18 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 const navLinks = [
   { name: 'Inicio', href: '#hero' },
   { name: 'Sobre Nosotros', href: '#about' },
+  { name: 'Árbol de Problemas', href: '#problem-tree' },
+  { name: 'Matriz DOFA', href: '#swot-matrix' },
   { name: 'Misión y Visión', href: '#mission-vision' },
-  { name: 'Servicios', href: '#services' },
+  { name: 'Objetivos', href: '#strategic-objectives' },
+  { name: 'Clientes', href: '#clients' },
+  { name: 'Mapa de Procesos', href: '#process-map' },
   { name: 'Equipo', href: '#team' },
+  { name: 'Áreas', href: '#areas' },
+  { name: 'Servicios', href: '#services' },
   { name: 'Testimonios', href: '#testimonials' },
   { name: 'FAQs', href: '#faqs' },
+  { name: 'Alianzas', href: '#interdependence' },
   { name: 'Contacto', href: '#contact' },
 ]
 
@@ -22,8 +29,6 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    // This function can be expanded for more complex routing or analytics
-    // For now, it just closes the mobile menu
     if (href.startsWith('#')) {
       e.preventDefault();
       document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
@@ -40,8 +45,8 @@ export default function Header() {
             NutriMet Clinic
           </span>
         </Link>
-        <nav className="hidden md:flex md:items-center md:gap-6 text-sm font-medium">
-          {navLinks.map((link) => (
+        <nav className="hidden lg:flex lg:items-center lg:gap-4 text-sm font-medium">
+          {navLinks.slice(0, 8).map((link) => (
             <Link
               key={link.name}
               href={link.href}
@@ -51,11 +56,30 @@ export default function Header() {
               {link.name}
             </Link>
           ))}
+           <Sheet>
+            <SheetTrigger asChild>
+                <Button variant="link" className="text-sm font-medium transition-colors hover:text-accent p-0 h-auto">Más</Button>
+            </SheetTrigger>
+            <SheetContent side="top" className="w-full">
+                 <nav className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
+                  {navLinks.map((link) => (
+                    <Link
+                      key={link.name}
+                      href={link.href}
+                      className="text-lg font-medium transition-colors hover:text-accent"
+                      onClick={(e) => handleLinkClick(e, link.href)}
+                    >
+                      {link.name}
+                    </Link>
+                  ))}
+                </nav>
+            </SheetContent>
+           </Sheet>
         </nav>
         <div className="flex flex-1 items-center justify-end gap-4">
           <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className="md:hidden">
+              <Button variant="ghost" size="icon" className="lg:hidden">
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Abrir menú</span>
               </Button>
@@ -92,7 +116,7 @@ export default function Header() {
               </div>
             </SheetContent>
           </Sheet>
-          <Button asChild className="hidden md:flex">
+          <Button asChild className="hidden lg:flex">
             <Link href="#contact">Agendar Cita</Link>
           </Button>
         </div>

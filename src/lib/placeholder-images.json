@@ -13,6 +13,90 @@
       "imageHint": "medical team"
     },
     {
+      "id": "problem-tree",
+      "description": "Diagrama de árbol de problemas conceptual",
+      "imageUrl": "https://images.unsplash.com/photo-1758685734423-593b9854a31c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJvYmxlbSUyMGRpYWdyYW18ZW58MHx8fHwxNzYzMzA5NDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "problem diagram"
+    },
+    {
+      "id": "swot-matrix",
+      "description": "Matriz DOFA conceptual",
+      "imageUrl": "https://picsum.photos/seed/102/1200/600",
+      "imageHint": "swot matrix"
+    },
+    {
+      "id": "internal-clients",
+      "description": "Equipo de profesionales de la salud en una reunión.",
+      "imageUrl": "https://images.unsplash.com/photo-1631507623442-fee09e89c6a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtZWRpY2FsJTIwbWVldGluZ3xlbnwwfHx8fDE3NjMzMDk0MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical meeting"
+    },
+    {
+      "id": "process-map",
+      "description": "Mapa de procesos de negocio conceptual",
+      "imageUrl": "https://images.unsplash.com/photo-1666148670142-2f01b117e6e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9jZXNzJTIwbWFwfGVufDB8fHx8MTc2MzMwOTQxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "process map"
+    },
+    {
+      "id": "reception",
+      "description": "Recepción moderna de una clínica",
+      "imageUrl": "https://images.unsplash.com/photo-1742797359136-b34989b8f35d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xpbmljJTIwcmVjZXB0aW9ufGVufDB8fHx8MTc2MzI3MTY1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clinic reception"
+    },
+    {
+      "id": "clinic-office",
+      "description": "Consultorio médico moderno",
+      "imageUrl": "https://images.unsplash.com/photo-1758812821349-1d2a4a96eecd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbGluaWMlMjBvZmZpY2V8ZW58MHx8fHwxNzYzMzA5NDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clinic office"
+    },
+    {
+      "id": "gym",
+      "description": "Gimnasio clínico con equipo de rehabilitación",
+      "imageUrl": "https://images.unsplash.com/photo-1723468353356-e18254cd8a63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbGluaWMlMjBneW18ZW58MHx8fHwxNzYzMzA5NDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clinic gym"
+    },
+    {
+      "id": "admin-area",
+      "description": "Oficina administrativa moderna",
+      "imageUrl": "https://images.unsplash.com/photo-1729789728036-12d59c440316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhZG1pbiUyMG9mZmljZXxlbnwwfHx8fDE3NjMzMDk0MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "admin office"
+    },
+    {
+      "id": "clinizad",
+      "description": "Logo de Clinizad laboratorio",
+      "imageUrl": "https://images.unsplash.com/photo-1549924231-f129b911e442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "medical-supplies",
+      "description": "Logo de proveedor de insumos médicos",
+      "imageUrl": "https://images.unsplash.com/photo-1549924231-f129b911e442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "cleaning-service",
+      "description": "Logo de Limpieza integral del sur",
+      "imageUrl": "https://images.unsplash.com/photo-1496200186974-4293800e2c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "security-service",
+      "description": "Logo de Seguridad del Sur",
+      "imageUrl": "https://images.unsplash.com/photo-1496200186974-4293800e2c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "meganet",
+      "description": "Logo de Meganet",
+      "imageUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "emaseo",
+      "description": "Logo de Empresa metropolitana de aseo de Pasto",
+      "imageUrl": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
       "id": "doctor-1",
       "description": "Retrato de Tatiana Guerrero",
       "imageUrl": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzIxODk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
