@@ -7,28 +7,28 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const testimonials = [
   {
-    name: 'María Pérez',
-    role: 'Paciente de Cardiología',
-    text: 'El trato fue excepcional. El Dr. García me explicó todo con claridad y paciencia. Me sentí en las mejores manos. ¡Totalmente recomendados!',
+    name: 'Ana Sofía R.',
+    role: 'Paciente',
+    text: 'El enfoque personalizado y el profesionalismo del equipo de NutriMet Clinic transformaron mi relación con la comida. ¡He alcanzado metas que nunca creí posibles!',
     imageId: 'patient-1',
   },
   {
-    name: 'Juan González',
-    role: 'Padre de paciente de Pediatría',
-    text: 'Llevamos a nuestro hijo con el Dr. Rodríguez y la experiencia fue fantástica. Es un gran profesional y tiene una habilidad increíble con los niños.',
+    name: 'Carlos M.',
+    role: 'Paciente',
+    text: 'Gracias a la orientación experta, he logrado controlar mis niveles de azúcar y mejorar mi energía. El seguimiento constante marca la diferencia.',
     imageId: 'patient-2',
   },
   {
-    name: 'Luisa Fernández',
-    role: 'Paciente de Dermatología',
-    text: 'La Dra. Martínez solucionó un problema de piel que tenía desde hace años. Estoy muy agradecida por su profesionalismo y amabilidad.',
+    name: 'Laura V.',
+    role: 'Paciente',
+    text: 'El acompañamiento psicológico fue clave en mi proceso. Aprendí a manejar la ansiedad y a construir hábitos sostenibles. ¡Recomiendo totalmente sus servicios!',
     imageId: 'patient-3',
   },
 ];
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="w-full bg-background">
+    <section id="testimonials" className="w-full bg-secondary">
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center gap-4 mb-12">
           <h2 className="font-headline text-3xl md:text-4xl font-bold tracking-tight">Lo que Dicen Nuestros Pacientes</h2>

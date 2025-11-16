@@ -4,6 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { Mail, MapPin, Phone } from "lucide-react"
+import Link from 'next/link'
 
 import { Button } from "@/components/ui/button"
 import {
@@ -63,8 +64,8 @@ export default function Contact() {
         <div className="container mx-auto">
           <div className="flex flex-col items-center text-center gap-4 mb-12">
             <h2 className="font-headline text-3xl md:text-4xl font-bold tracking-tight">Contáctenos</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl">
-              ¿Tiene alguna pregunta o desea programar una cita? Complete el formulario y nos pondremos en contacto con usted.
+            <p className="text-lg text-muted-foreground max-w-3xl">
+              Si deseas recibir orientación, agendar una cita o conocer más sobre nuestros servicios, estamos aquí para acompañarte. En Nutrimet Clinic valoramos tu bienestar y queremos brindarte respuestas claras, apoyo oportuno y una atención cercana. ¡Tu salud es nuestra prioridad!
             </p>
           </div>
 
@@ -76,23 +77,32 @@ export default function Contact() {
                   <div className="bg-accent/10 p-3 rounded-full"><MapPin className="h-6 w-6 text-accent" /></div>
                   <div>
                     <h4 className="font-semibold">Dirección</h4>
-                    <p className="text-muted-foreground">Calle Falsa 123, 28080 Madrid, España</p>
+                    <p className="text-muted-foreground">Avenida Los Estudiantes No. 25–40<br/>San Juan de Pasto, Nariño, Colombia</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="bg-accent/10 p-3 rounded-full"><Phone className="h-6 w-6 text-accent" /></div>
                   <div>
                     <h4 className="font-semibold">Teléfono</h4>
-                    <p className="text-muted-foreground">+34 912 345 678</p>
+                    <p className="text-muted-foreground">(602) 7325467</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="bg-accent/10 p-3 rounded-full"><Mail className="h-6 w-6 text-accent" /></div>
                   <div>
                     <h4 className="font-semibold">Correo Electrónico</h4>
-                    <p className="text-muted-foreground">contacto@clinicavitalis.com</p>
+                    <p className="text-muted-foreground">nutrimetclinic@gmail.com</p>
                   </div>
                 </div>
+              </div>
+               <div className="mt-4">
+                  <h4 className="text-lg font-bold font-headline mb-4">Redes Sociales</h4>
+                  <div className="flex space-x-4">
+                    <Link href="#" className="text-muted-foreground hover:text-accent">Facebook</Link>
+                    <Link href="#" className="text-muted-foreground hover:text-accent">X</Link>
+                    <Link href="#" className="text-muted-foreground hover:text-accent">LinkedIn</Link>
+                    <Link href="#" className="text-muted-foreground hover:text-accent">Instagram</Link>
+                  </div>
               </div>
             </div>
             <div className="p-8 border rounded-lg bg-secondary/50">
@@ -163,7 +173,7 @@ export default function Contact() {
       </section>
       <footer className="w-full bg-primary text-primary-foreground py-6">
         <div className="container mx-auto text-center text-sm">
-          <p>© {new Date().getFullYear()} Clínica Vitalis. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} NutriMet Clinic. Todos los derechos reservados.</p>
         </div>
       </footer>
     </>

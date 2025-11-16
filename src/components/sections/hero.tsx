@@ -12,10 +12,10 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="flex flex-col items-start text-left">
             <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-              <span className="text-accent">Clínica Vitalis:</span> Su Salud, Nuestra Prioridad
+              <span className="text-accent">NutriMet Clinic:</span> Nutrición que impulsa tu mejor versión
             </h1>
             <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-xl">
-              Ofrecemos atención médica integral y personalizada para usted y su familia. Nuestro compromiso es su bienestar.
+              Bienvenidos a NutriMet Clinic, una institución dedicada a la orientación y atención nutricional integral. Desde Pasto, trabajamos para ofrecer un servicio accesible, confiable y basado en el rigor profesional.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg">

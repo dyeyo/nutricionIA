@@ -30,7 +30,7 @@ const faqPrompt = ai.definePrompt({
   name: 'faqPrompt',
   input: {schema: FaqAnswersInputSchema},
   output: {schema: FaqAnswersOutputSchema},
-  prompt: `You are a helpful assistant providing succinct answers to frequently asked questions about a medical clinic called Clínica Vitalis.  Given the following list of questions, provide a concise and informative answer for each question.  Limit each answer to one or two sentences, suitable for display in an FAQ accordion. Output in JSON format. Questions: {{{questions}}}`,
+  prompt: `You are a helpful assistant providing succinct answers to frequently asked questions about a medical clinic called NutriMet Clinic.  Given the following list of questions, provide a concise and informative answer for each question.  Limit each answer to one or two sentences, suitable for display in an FAQ accordion. Output in JSON format. Questions: {{{questions}}}`,
 });
 
 const generateFaqAnswersFlow = ai.defineFlow(

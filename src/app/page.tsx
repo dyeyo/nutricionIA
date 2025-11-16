@@ -6,6 +6,7 @@ import Team from '@/components/sections/team';
 import Testimonials from '@/components/sections/testimonials';
 import Faq from '@/components/sections/faq';
 import Contact from '@/components/sections/contact';
+import MissionVision from '@/components/sections/mission-vision';
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <main className="flex-1">
         <Hero />
         <About />
+        <MissionVision />
         <Services />
         <Team />
         <Testimonials />

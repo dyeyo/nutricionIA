@@ -6,11 +6,11 @@ import { Menu, X, HeartPulse } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
-import { cn } from '@/lib/utils'
 
 const navLinks = [
   { name: 'Inicio', href: '#hero' },
   { name: 'Sobre Nosotros', href: '#about' },
+  { name: 'Misión y Visión', href: '#mission-vision' },
   { name: 'Servicios', href: '#services' },
   { name: 'Equipo', href: '#team' },
   { name: 'Testimonios', href: '#testimonials' },
@@ -37,7 +37,7 @@ export default function Header() {
         <Link href="/" className="mr-6 flex items-center space-x-2">
           <HeartPulse className="h-6 w-6 text-accent" />
           <span className="font-bold font-headline sm:inline-block">
-            Clínica Vitalis
+            NutriMet Clinic
           </span>
         </Link>
         <nav className="hidden md:flex md:items-center md:gap-6 text-sm font-medium">
@@ -65,7 +65,7 @@ export default function Header() {
                 <div className="flex items-center justify-between pb-4 border-b">
                    <Link href="/" className="flex items-center space-x-2" onClick={(e) => handleLinkClick(e, '/')}>
                     <HeartPulse className="h-6 w-6 text-accent" />
-                    <span className="font-bold">Clínica Vitalis</span>
+                    <span className="font-bold">NutriMet Clinic</span>
                   </Link>
                   <Button variant="ghost" size="icon" onClick={() => setIsMenuOpen(false)}>
                     <X className="h-6 w-6" />

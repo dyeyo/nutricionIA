@@ -3,15 +3,15 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Clínica Vitalis - Su Salud, Nuestra Prioridad',
-  description: 'Clínica Vitalis ofrece servicios médicos de calidad con un equipo de expertos dedicados a su bienestar. Contáctenos para agendar su cita.',
+  title: 'NutriMet Clinic - Nutrición que impulsa tu mejor versión',
+  description: 'NutriMet Clinic, una institución dedicada a la orientación y atención nutricional integral. Promovemos hábitos saludables para fortalecer el bienestar y la calidad de vida.',
   openGraph: {
-    title: 'Clínica Vitalis - Su Salud, Nuestra Prioridad',
-    description: 'Clínica Vitalis ofrece servicios médicos de calidad con un equipo de expertos dedicados a su bienestar.',
+    title: 'NutriMet Clinic - Nutrición que impulsa tu mejor versión',
+    description: 'NutriMet Clinic, una institución dedicada a la orientación y atención nutricional integral.',
     type: 'website',
     locale: 'es_ES',
-    url: 'https://clinicavitalis.example.com', // Replace with your actual URL
-    siteName: 'Clínica Vitalis',
+    url: 'https://nutrimetclinic.example.com', // Replace with your actual URL
+    siteName: 'NutriMet Clinic',
   },
 };
 
