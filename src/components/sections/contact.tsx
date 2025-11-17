@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { Mail, MapPin, Phone } from "lucide-react"
 import Link from 'next/link'
+import Image from 'next/image'
 
 import { Button } from "@/components/ui/button"
 import {
@@ -19,6 +20,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { useToast } from "@/hooks/use-toast"
 import { submitContactForm } from "@/app/actions"
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const formSchema = z.object({
   name: z.string().min(2, "El nombre debe tener al menos 2 caracteres."),
@@ -29,6 +31,7 @@ const formSchema = z.object({
 
 export default function Contact() {
   const { toast } = useToast()
+  const contactImage = PlaceHolderImages.find(image => image.id === 'contact');
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -69,8 +72,8 @@ export default function Contact() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div className="flex flex-col gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
+            <div className="lg:col-span-2 flex flex-col gap-8">
               <h3 className="text-2xl font-bold font-headline">Información de Contacto</h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -105,7 +108,7 @@ export default function Contact() {
                   </div>
               </div>
             </div>
-            <div className="p-8 border rounded-lg bg-secondary/50">
+            <div className="lg:col-span-3 p-8 border rounded-lg bg-secondary/50">
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

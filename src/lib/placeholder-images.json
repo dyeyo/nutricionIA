@@ -149,6 +149,12 @@
       "description": "Avatar de paciente sonriendo",
       "imageUrl": "https://images.unsplash.com/photo-1607529378676-a20456ee2f6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc2MzIxOTY1OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person smiling"
+    },
+    {
+      "id": "contact",
+      "description": "Una recepcionista amigable en una clínica.",
+      "imageUrl": "https://i.ibb.co/7jKzBwW/Whats-App-Image-2025-11-13-at-9-23-36-AM.jpg",
+      "imageHint": "clinic receptionist"
     }
   ]
 }
