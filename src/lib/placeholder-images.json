@@ -3,133 +3,133 @@
     {
       "id": "hero",
       "description": "Una doctora sonriendo en un consultorio moderno",
-      "imageUrl": "https://images.unsplash.com/photo-1617170007444-368999506742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxudXRyaXRpb25pc3QlMjBjb25zdWx0YXRpb258ZW58MHx8fHwxNzYzMzA4ODcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/p66skh4h/Whats-App-Image-2025-11-13-at-9-23-38-AM.jpg",
       "imageHint": "nutritionist consultation"
     },
     {
       "id": "about",
       "description": "Un grupo de profesionales de la salud colaborando",
-      "imageUrl": "https://images.unsplash.com/photo-1587557983735-f05198060b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWRpY2FsJTIwdGVhbXxlbnwwfHx8fDE3NjMzMDg4NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/NzjDdhK/Whats-App-Image-2025-11-12-at-7-17-11-PM.jpg",
       "imageHint": "medical team"
     },
     {
       "id": "problem-tree",
       "description": "Diagrama de árbol de problemas conceptual",
-      "imageUrl": "https://images.unsplash.com/photo-1758685734423-593b9854a31c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJvYmxlbSUyMGRpYWdyYW18ZW58MHx8fHwxNzYzMzA5NDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/SYrgYNB/Whats-App-Image-2025-11-16-at-4-21-29-PM.jpg",
       "imageHint": "problem diagram"
     },
     {
       "id": "swot-matrix",
       "description": "Matriz DOFA conceptual",
-      "imageUrl": "https://picsum.photos/seed/102/1200/600",
+      "imageUrl": "https://i.ibb.co/7JdjKRvh/Whats-App-Image-2025-11-15-at-3-34-08-PM.jpg",
       "imageHint": "swot matrix"
     },
     {
       "id": "internal-clients",
       "description": "Equipo de profesionales de la salud en una reunión.",
-      "imageUrl": "https://images.unsplash.com/photo-1631507623442-fee09e89c6a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtZWRpY2FsJTIwbWVldGluZ3xlbnwwfHx8fDE3NjMzMDk0MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/MD7dLJt6/Whats-App-Image-2025-11-16-at-9-13-37-PM.jpg",
       "imageHint": "medical meeting"
     },
     {
       "id": "process-map",
       "description": "Mapa de procesos de negocio conceptual",
-      "imageUrl": "https://images.unsplash.com/photo-1666148670142-2f01b117e6e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9jZXNzJTIwbWFwfGVufDB8fHx8MTc2MzMwOTQxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/KpPPj7Rc/Whats-App-Image-2025-11-15-at-3-34-56-PM.jpg",
       "imageHint": "process map"
     },
     {
       "id": "reception",
       "description": "Recepción moderna de una clínica",
-      "imageUrl": "https://images.unsplash.com/photo-1742797359136-b34989b8f35d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xpbmljJTIwcmVjZXB0aW9ufGVufDB8fHx8MTc2MzI3MTY1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/BHjFtJ19/Whats-App-Image-2025-11-13-at-9-23-36-AM-1.jpg",
       "imageHint": "clinic reception"
     },
     {
       "id": "clinic-office",
       "description": "Consultorio médico moderno",
-      "imageUrl": "https://images.unsplash.com/photo-1758812821349-1d2a4a96eecd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbGluaWMlMjBvZmZpY2V8ZW58MHx8fHwxNzYzMzA5NDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/qY52Xgw7/Whats-App-Image-2025-11-13-at-9-23-39-AM.jpg",
       "imageHint": "clinic office"
     },
     {
       "id": "gym",
       "description": "Gimnasio clínico con equipo de rehabilitación",
-      "imageUrl": "https://images.unsplash.com/photo-1723468353356-e18254cd8a63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbGluaWMlMjBneW18ZW58MHx8fHwxNzYzMzA5NDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/1thmg8Wv/Whats-App-Image-2025-11-13-at-9-23-37-AM.jpg",
       "imageHint": "clinic gym"
     },
     {
       "id": "admin-area",
       "description": "Oficina administrativa moderna",
-      "imageUrl": "https://images.unsplash.com/photo-1729789728036-12d59c440316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhZG1pbiUyMG9mZmljZXxlbnwwfHx8fDE3NjMzMDk0MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/FbxnKqPz/Whats-App-Image-2025-11-13-at-9-26-45-AM.jpg",
       "imageHint": "admin office"
     },
     {
       "id": "clinizad",
       "description": "Logo de Clinizad laboratorio",
-      "imageUrl": "https://images.unsplash.com/photo-1549924231-f129b911e442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/M5g7RfBp/Whats-App-Image-2025-11-16-at-9-27-05-PM.jpg",
       "imageHint": "company logo"
     },
     {
       "id": "medical-supplies",
       "description": "Logo de proveedor de insumos médicos",
-      "imageUrl": "https://images.unsplash.com/photo-1549924231-f129b911e442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/mC1bxh4g/Whats-App-Image-2025-11-16-at-9-27-08-PM.jpg",
       "imageHint": "company logo"
     },
     {
       "id": "cleaning-service",
       "description": "Logo de Limpieza integral del sur",
-      "imageUrl": "https://images.unsplash.com/photo-1496200186974-4293800e2c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/zhMrHxG3/Whats-App-Image-2025-11-16-at-9-27-11-PM.jpg",
       "imageHint": "company logo"
     },
     {
       "id": "security-service",
       "description": "Logo de Seguridad del Sur",
-      "imageUrl": "https://images.unsplash.com/photo-1496200186974-4293800e2c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/0jDTGv6n/Whats-App-Image-2025-11-16-at-9-27-14-PM.jpg",
       "imageHint": "company logo"
     },
     {
       "id": "meganet",
       "description": "Logo de Meganet",
-      "imageUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/N2gbCCvY/Whats-App-Image-2025-11-16-at-9-27-17-PM.jpg",
       "imageHint": "company logo"
     },
     {
       "id": "emaseo",
       "description": "Logo de Empresa metropolitana de aseo de Pasto",
-      "imageUrl": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjMyMjYxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/9H3yW3tB/Whats-App-Image-2025-11-16-at-9-27-20-PM.jpg",
       "imageHint": "company logo"
     },
     {
       "id": "doctor-1",
       "description": "Retrato de Tatiana Guerrero",
-      "imageUrl": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzIxODk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/R4bbysFr/Whats-App-Image-2025-11-16-at-3-40-00-PM-1.jpg",
       "imageHint": "woman portrait"
     },
     {
       "id": "doctor-2",
       "description": "Retrato de Vanesa Ramos",
-      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjMyMTg5NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/YB8jdFgJ/Whats-App-Image-2025-11-16-at-4-12-50-PM.jpg",
       "imageHint": "woman portrait"
     },
     {
       "id": "doctor-3",
       "description": "Retrato de Jordan Lugmana",
-      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjMyODUxOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/d43Gcydr/Whats-App-Image-2025-11-16-at-3-38-55-PM.jpg",
       "imageHint": "man portrait"
     },
     {
       "id": "doctor-4",
       "description": "Retrato de Karen Sánchez",
-      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzIxODk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/hJZ3PdJq/Whats-App-Image-2025-11-16-at-3-39-59-PM.jpg",
       "imageHint": "woman portrait"
     },
     {
       "id": "doctor-5",
       "description": "Retrato de Jhoana Cabrera",
-      "imageUrl": "https://images.unsplash.com/photo-1557053908-4793c484d06f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzIxODk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/RTMy7MQ5/Whats-App-Image-2025-11-16-at-3-40-27-PM.jpg",
       "imageHint": "woman portrait"
     },
     {
       "id": "doctor-6",
       "description": "Retrato de Nataly Ordoñez",
-      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzIxODk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/fzP08dLk/Whats-App-Image-2025-11-16-at-3-40-00-PM.jpg",
       "imageHint": "woman portrait"
     },
     {

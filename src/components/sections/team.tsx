@@ -64,7 +64,7 @@ export default function Team() {
                         alt={`Fotografía de ${member.name}`}
                         fill
                         loading="lazy"
-                        className="object-cover"
+                        className="object-contain"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         data-ai-hint={memberImage.imageHint}
                       />
