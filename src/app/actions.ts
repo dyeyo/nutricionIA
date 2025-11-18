@@ -1,5 +1,5 @@
-'use server'
-
+// Nota: Se eliminó la directiva 'use server' para permitir la exportación estática.
+// Esta función ahora puede ejecutarse en el cliente (validación con zod en navegador).
 import { z } from 'zod'
 
 const contactSchema = z.object({
