@@ -7,19 +7,19 @@ const teamMembers = [
     name: 'Tatiana Guerrero',
     specialty: 'Directora General de NutriMet Clinic',
     imageId: 'doctor-1',
-    description: 'Soy profesional en dirección y gestión de servicios de salud, con amplia experiencia en liderazgo estratégico y desarrollo de proyectos enfocados en nutrición y bienestar. Me caracterizo por una visión integral orientada al crecimiento institucional, la calidad del servicio y la innovación en procesos clínicos y administrativos. Mi gestión está marcada por el compromiso, la responsabilidad y la búsqueda constante de excelencia en cada área de la organización.'
+    description: 'Profesional en dirección y gestión de servicios de salud, con amplia experiencia en liderazgo estratégico y desarrollo de proyectos enfocados en nutrición y bienestar. Me caracterizo por una visión integral orientada al crecimiento institucional, la calidad del servicio y la innovación en procesos clínicos y administrativos. Mi gestión está marcada por el compromiso, la responsabilidad y la búsqueda constante de excelencia en cada área de la organización.'
   },
   {
     name: 'Vanesa Ramos',
     specialty: 'Coordinadora Asistencial',
     imageId: 'doctor-2',
-    description: 'Soy profesional en el área de la salud con experiencia en la coordinación de servicios asistenciales y en la implementación de protocolos de atención seguros y humanizados. Me destaco por mi capacidad para gestionar equipos, optimizar procesos y asegurar una atención oportuna y de alta calidad. Mi enfoque está orientado al bienestar del paciente y al cumplimiento riguroso de estándares clínicos.'
+    description: 'Profesional en el área de la salud con experiencia en la coordinación de servicios asistenciales y en la implementación de protocolos de atención seguros y humanizados. Me destaco por mi capacidad para gestionar equipos, optimizar procesos y asegurar una atención oportuna y de alta calidad. Mi enfoque está orientado al bienestar del paciente y al cumplimiento riguroso de estándares clínicos.'
   },
   {
     name: 'Jordan Lugmana',
     specialty: 'Coordinador Administrativo',
     imageId: 'doctor-3',
-    description: 'Soy profesional en administración de servicios de salud, con trayectoria en gestión operativa, control de recursos y diseño de estrategias para la eficiencia institucional. Me distingo por mi capacidad analítica, organización y liderazgo en la toma de decisiones. Mi compromiso es garantizar procesos administrativos sólidos que respalden el crecimiento y la sostenibilidad de NutriMet Clinic.'
+    description: 'Profesional en administración de servicios de salud, con trayectoria en gestión operativa, control de recursos y diseño de estrategias para la eficiencia institucional. Me distingo por mi capacidad analítica, organización y liderazgo en la toma de decisiones. Mi compromiso es garantizar procesos administrativos sólidos que respalden el crecimiento y la sostenibilidad de NutriMet Clinic.'
   },
   {
     name: 'Karen Sánchez',
@@ -31,7 +31,7 @@ const teamMembers = [
     name: 'Jhoana Cabrera',
     specialty: 'Coordinadora de Enfermería',
     imageId: 'doctor-5',
-    description: 'Soy profesional en enfermería con experiencia en el cuidado clínico, educación al paciente y gestión de procesos asistenciales. Me destaco por una atención humanizada, liderazgo en equipos de trabajo y manejo riguroso de protocolos de seguridad del paciente. Mi labor se orienta a garantizar cuidados integrales y contribuir a una atención eficiente, ética y de alta calidad.'
+    description: 'Profesional en enfermería con experiencia en el cuidado clínico, educación al paciente y gestión de procesos asistenciales. Me destaco por una atención humanizada, liderazgo en equipos de trabajo y manejo riguroso de protocolos de seguridad del paciente. Mi labor se orienta a garantizar cuidados integrales y contribuir a una atención eficiente, ética y de alta calidad.'
   },
   {
     name: 'Nataly Ordoñez',

@@ -33,7 +33,7 @@
     {
       "id": "process-map",
       "description": "Mapa de procesos de negocio conceptual",
-      "imageUrl": "https://i.ibb.co/KpPPj7Rc/Whats-App-Image-2025-11-15-at-3-34-56-PM.jpg",
+      "imageUrl": "https://i.ibb.co/FkKv87Nv/Whats-App-Image-2025-11-18-at-2-06-44-PM.jpg",
       "imageHint": "process map"
     },
     {
@@ -154,6 +154,54 @@
       "id": "contact",
       "description": "Una recepcionista amigable en una clínica.",
       "imageUrl": "https://i.ibb.co/mC28v6Ym/Whats-App-Image-2025-11-16-at-9-43-14-PM.jpg",
+      "imageHint": "clinic receptionist"
+    },
+    {
+      "id": "123213",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/0R7Mm89Z/Whats-App-Image-2025-11-18-at-12-21-37-PM-1.jpg",
+      "imageHint": "clinic receptionist"
+    },
+    {
+      "id": "contact1",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/dwfM5jds/Whats-App-Image-2025-11-18-at-12-21-37-PM.jpg",
+      "imageHint": "clinic receptionist"
+    },
+    {
+      "id": "contact2",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/3Y19RTSX/Whats-App-Image-2025-11-18-at-12-21-36-PM-4.jpg",
+      "imageHint": "clinic receptionist"
+    },
+    {
+      "id": "contact3",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/ccVPbRMk/Whats-App-Image-2025-11-18-at-12-21-36-PM-3.jpg",
+      "imageHint": "clinic receptionist"
+    },
+    {
+      "id": "contact4",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/dwpd2J1T/Whats-App-Image-2025-11-18-at-12-21-36-PM-1.jpg",
+      "imageHint": "clinic receptionist"
+    },
+    {
+      "id": "contact5",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/0jBYYzjG/Whats-App-Image-2025-11-18-at-12-21-36-PM-2.jpg",
+      "imageHint": "clinic receptionist"
+    },
+    {
+      "id": "contact6",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/qMgxSgPt/Whats-App-Image-2025-11-18-at-12-21-35-PM-2.jpg",
+      "imageHint": "clinic receptionist"
+    },
+    {
+      "id": "contact7",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/VcqVCNGp/Whats-App-Image-2025-11-18-at-12-21-35-PM.jpg",
       "imageHint": "clinic receptionist"
     }
   ]
