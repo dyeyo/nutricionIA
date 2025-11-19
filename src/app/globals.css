@@ -1,7 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body {
+  background: linear-gradient(
+    172deg,
+    rgba(133, 183, 25, 1) 0%,
+    rgba(255, 255, 0, 1) 54%,
+    rgba(255, 255, 255, 1) 100%
+  ) !important;
+}
 @layer base {
   :root {
     --background: 0 0% 100%; /* #FFFFFF */
@@ -25,7 +32,7 @@
     --ring: 51 100% 50%; /* #FFD700 */
     --radius: 0.5rem;
   }
- 
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;

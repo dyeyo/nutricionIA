@@ -3,6 +3,7 @@ import {
   CardHeader,
   CardTitle,
   CardDescription,
+  CardContent,
 } from "@/components/ui/card";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import {
@@ -13,7 +14,7 @@ import {
   Activity,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
-import Image from 'next/image';
+import Image from "next/image";
 
 interface Service {
   icon: LucideIcon;
@@ -56,7 +57,7 @@ const servicesList: Service[] = [
 
 const partners = [
   { name: "Dotacion", imageId: "123213" },
-  { name: "Dotacion",imageId: "contact1",},
+  { name: "Dotacion", imageId: "contact1" },
   { name: "Dotacion", imageId: "contact2" },
   { name: "Dotacion", imageId: "contact3" },
   { name: "Dotacion", imageId: "contact4" },
@@ -66,7 +67,6 @@ const partners = [
 ];
 
 export default function Services() {
-
   return (
     <section id="services" className="w-full bg-secondary">
       <div className="container mx-auto">
@@ -116,8 +116,7 @@ export default function Services() {
             metabólicas confiables y una atención integral, segura y eficiente
             para todos nuestros pacientes.
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap" }}>
-
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {partners.map((partner) => {
               const partnerImage = PlaceHolderImages.find(
                 (img) => img.id === partner.imageId
@@ -125,30 +124,40 @@ export default function Services() {
               return (
                 <Card
                   key={partner.name}
-                  className="p-4 flex flex-col items-center justify-center h-50"
+                  className="overflow-hidden text-center flex flex-col"
                 >
-                  {partnerImage ? (
-                    <div className="relative w-full h-20 mb-2">
-                      <Image
-                        src={partnerImage.imageUrl}
-                        alt={`Logo de ${partner.name}`}
-                        fill
-                        loading="lazy"
-                        className="object-contain"
-                        sizes="150px"
-                        data-ai-hint={partnerImage.imageHint}
-                      />
+                  <CardHeader className="p-0">
+                    <div className="relative h-60 w-full">
+                      {partnerImage ? (
+                        <Image
+                          src={partnerImage.imageUrl}
+                          alt={partner.name}
+                          fill
+                          loading="lazy"
+                          className="object-cover"
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                          data-ai-hint={partnerImage.imageHint}
+                        />
+                      ) : (
+                        <div className="w-full h-full bg-secondary flex items-center justify-center">
+                          <span className="text-muted-foreground">
+                            Foto pendiente
+                          </span>
+                        </div>
+                      )}
                     </div>
-                  ) : (
-                    <div className="w-full h-20 bg-muted rounded-md mb-2"></div>
-                  )}
-                  <p className="text-center text-sm font-semibold">
-                    {partner.name}
-                  </p>
+                  </CardHeader>
+                  <CardContent className="p-6 flex-grow flex flex-col">
+                    <CardTitle className="font-headline text-xl">
+                      {partner.name}
+                    </CardTitle>
+                  </CardContent>
                 </Card>
               );
             })}
           </div>
+
+         
         </div>
       </div>
     </section>
