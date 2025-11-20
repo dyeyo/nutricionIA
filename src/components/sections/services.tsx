@@ -56,14 +56,14 @@ const servicesList: Service[] = [
 ];
 
 const partners = [
-  { name: "Dotacion", imageId: "123213" },
-  { name: "Dotacion", imageId: "contact1" },
-  { name: "Dotacion", imageId: "contact2" },
-  { name: "Dotacion", imageId: "contact3" },
-  { name: "Dotacion", imageId: "contact4" },
-  { name: "Dotacion", imageId: "contact5" },
-  { name: "Dotacion", imageId: "contact6" },
-  { name: "Dotacion", imageId: "contact7" },
+  { name: "Analizador de composición corporal  ", imageId: "123213" },
+  { name: "Camilla multipropósito", imageId: "contact1" },
+  { name: "Kit completo para antropometría ", imageId: "contact2" },
+  { name: "Software de historia clínica nutricional ", imageId: "contact3" },
+  { name: "Sala de espera", imageId: "contact4" },
+  { name: "Área de rehabilitación física", imageId: "contact5" },
+  { name: "Recepción y facturación ", imageId: "contact6" },
+  { name: "Área de farmacia y dispensación de suplementos", imageId: "contact7" },
 ];
 
 export default function Services() {
