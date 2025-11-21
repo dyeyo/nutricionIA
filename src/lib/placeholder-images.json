@@ -203,6 +203,38 @@
       "description": "Dotación",
       "imageUrl": "https://i.ibb.co/VcqVCNGp/Whats-App-Image-2025-11-18-at-12-21-35-PM.jpg",
       "imageHint": "clinic receptionist"
+    },
+
+    {
+      "id": "HeartPulse",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/mFbtJB2m/Whats-App-Image-2025-11-20-at-8-57-46-PM.jpg",
+      "imageHint": "clinic receptionist"
+    },
+    {
+      "id": "Stethoscope",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/LDwHn3Ly/Whats-App-Image-2025-11-20-at-8-50-46-PM.jpg",
+      "imageHint": "clinic receptionist"
+    },
+    {
+      "id": "Droplets",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/bMVPqfC6/Whats-App-Image-2025-11-20-at-8-51-03-PM.jpg",
+      "imageHint": "clinic receptionist"
+    },
+    {
+      "id": "BrainCircuit",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/dwQ5G7vm/Whats-App-Image-2025-11-20-at-8-51-03-PM-1.jpg",
+      "imageHint": "clinic receptionist"
+    },
+{
+      "id": "Activity",
+      "description": "Dotación",
+      "imageUrl": "https://i.ibb.co/DPKbjLjq/Whats-App-Image-2025-11-20-at-8-51-03-PM-2.jpg",
+      "imageHint": "clinic receptionist"
     }
+
   ]
 }

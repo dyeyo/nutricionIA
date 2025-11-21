@@ -17,38 +17,38 @@ import type { LucideIcon } from "lucide-react";
 import Image from "next/image";
 
 interface Service {
-  icon: LucideIcon;
+  id: string;
   title: string;
   description: string;
 }
 
 const servicesList: Service[] = [
   {
-    icon: HeartPulse,
+    id: "HeartPulse",
     title: "Medicina Interna",
     description:
       "Servicio orientado al diagnóstico, control y seguimiento de enfermedades metabólicas, garantizando una atención integral y basada en la evidencia.",
   },
   {
-    icon: Stethoscope,
+    id: "Stethoscope",
     title: "Endocrinología",
     description:
       "Atención especializada en el manejo de alteraciones hormonales y trastornos metabólicos, con énfasis en precisión diagnóstica y tratamiento oportuno.",
   },
   {
-    icon: Droplets,
+    id: "Droplets",
     title: "Nutrición y Dietética",
     description:
       "Evaluación nutricional completa, formulación de planes alimentarios individualizados, educación en hábitos saludables y seguimiento continuo.",
   },
   {
-    icon: BrainCircuit,
+    id: "BrainCircuit",
     title: "Psicología",
     description:
       "Acompañamiento emocional y clínico enfocado en el manejo de la ansiedad asociada a la alimentación, fortalecimiento de la adherencia terapéutica y bienestar mental.",
   },
   {
-    icon: Activity,
+    id: "Activity",
     title: "Entrenamiento y Rehabilitación Metabólica",
     description:
       "Programas de ejercicio adaptado orientados a mejorar la condición física, optimizar el metabolismo y favorecer el control del peso corporal.",
@@ -63,7 +63,10 @@ const partners = [
   { name: "Sala de espera", imageId: "contact4" },
   { name: "Área de rehabilitación física", imageId: "contact5" },
   { name: "Recepción y facturación ", imageId: "contact6" },
-  { name: "Área de farmacia y dispensación de suplementos", imageId: "contact7" },
+  {
+    name: "Área de farmacia y dispensación de suplementos",
+    imageId: "contact7",
+  },
 ];
 
 export default function Services() {
@@ -84,27 +87,47 @@ export default function Services() {
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {servicesList.map((service) => (
-            <Card
-              key={service.title}
-              className="flex flex-col items-center text-center p-6 transition-all hover:shadow-lg hover:-translate-y-1"
-            >
-              <CardHeader className="p-0">
-                <div className="bg-accent/10 p-4 rounded-full mb-4 inline-flex">
-                  <service.icon
-                    className="h-8 w-8 text-accent"
-                    aria-label={service.title}
-                  />
-                </div>
-                <CardTitle className="font-headline text-xl">
-                  {service.title}
-                </CardTitle>
-              </CardHeader>
-              <CardDescription className="mt-2 text-base">
-                {service.description}
-              </CardDescription>
-            </Card>
-          ))}
+          {servicesList.map((service) => {
+            const areaImage = PlaceHolderImages.find(
+              (img) => img.id === service.id
+            );
+            return (
+              <Card
+                key={service.id}
+                className="overflow-hidden text-center flex flex-col"
+              >
+                <CardHeader className="p-0">
+                  <div className="relative h-60 w-full">
+                    {areaImage ? (
+                      <Image
+                        src={areaImage.imageUrl}
+                        alt={service.title}
+                        fill
+                        loading="lazy"
+                        className="object-cover"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                        data-ai-hint={areaImage.imageHint}
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-secondary flex items-center justify-center">
+                        <span className="text-muted-foreground">
+                          Foto pendiente
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                </CardHeader>
+                <CardContent className="p-6 flex-grow flex flex-col">
+                  <CardTitle className="font-headline text-xl">
+                    {service.title}
+                  </CardTitle>
+                  <p className="text-muted-foreground text-sm mt-4 flex-grow">
+                    {service.description}
+                  </p>
+                </CardContent>
+              </Card>
+            );
+          })}
         </div>
         <div className="mt-16 text-center">
           <h3 className="font-headline text-2xl md:text-3xl font-bold tracking-tight">
@@ -156,8 +179,6 @@ export default function Services() {
               );
             })}
           </div>
-
-         
         </div>
       </div>
     </section>
